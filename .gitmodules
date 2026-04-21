@@ -1,0 +1,6 @@
+[submodule "scanner_generator"]
+	path = scanner_generator
+	url = https://github.com/d0stoievskiii/scanner_generator
+[submodule "parser"]
+	path = parser
+	url = https://github.com/d0stoievskiii/parser
