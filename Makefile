@@ -12,7 +12,7 @@ SCANNER_DIR := scanner_generator/scanner_generator
 PARSER_DIR := parser
 EXAMPLES_DIR := examples
 
-PYTHON ?= python
+PYTHON ?= python3
 SPEC ?= racket_specs.txt
 OUT_SCANNER := ./out_scanner
 
