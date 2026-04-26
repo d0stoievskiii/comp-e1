@@ -29,6 +29,35 @@ make
 
 ## Opção 2 — Execução com Docker 🐳
 
+```Dockerfile
+FROM ubuntu:24.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install required tools
+RUN apt-get update && apt-get install -y \
+    git \
+    make \
+    g++ \
+    gcc \
+    python3 \
+    python3-pip \
+    ca-certificates \
+ && rm -rf /var/lib/apt/lists/*
+
+# Working directory
+WORKDIR /workspace
+
+# Clone repo (with submodules)
+RUN git clone --recurse-submodules https://github.com/d0stoievskiii/comp-e1.git
+
+# Enter repo
+WORKDIR /workspace/comp-e1
+
+# Default command
+CMD ["/bin/bash"]
+```
+
 ### 1. Construir a imagem
 
 ```bash
