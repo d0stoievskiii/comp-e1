@@ -4,7 +4,7 @@ Projeto acadêmico contendo:
 
 * **Gerador de Scanner**
 * **Analisador Léxico**
-* **Parser Preditivo LL(1)**
+* **Parser Preditivo LL**
 * **Geração de Parse Tree**
 
 ---
