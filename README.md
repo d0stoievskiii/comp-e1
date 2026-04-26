@@ -93,7 +93,7 @@ Após a execução, serão criadas as pastas:
 
 ```text
 scanner_generator/   -> gerador de scanner + scanner em C++
-parser/              -> parser LL(1) em Python
+parser/              -> parser preditivo top-down em Python
 examples/            -> exemplos em Racket
 token_lists/         -> saída léxica
 trees/               -> parse trees
