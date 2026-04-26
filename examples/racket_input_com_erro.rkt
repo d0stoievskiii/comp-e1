@@ -23,8 +23,8 @@
 (define squares
   (map (lambda (n) (square n)) numbers))
 
-(let ([sum (+ x y)]
-      [fact (factorial 5)])
+(let ((sum (+ x y))
+      (fact (factorial 5)))
   (display "Sum: ")
   (display sum)
   (newline)
