@@ -1,4 +1,4 @@
-#lang racket
+
 
 (define (multiplicar a b)
   (* a b))
