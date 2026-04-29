@@ -1,4 +1,4 @@
-#lang racket
+
 
 (define x 42)
 (define y 10)
@@ -41,5 +41,3 @@
 (if (> x y)
     (display "x is greater than y")
     (display "y is greater or equal to x"))
-
-(@define resultado (* x y))
